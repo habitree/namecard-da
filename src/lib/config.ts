@@ -35,7 +35,7 @@ export const siteConfig = {
   extraContacts: parseJSON<ExtraContactItem[]>(process.env.NEXT_PUBLIC_EXTRA_CONTACTS, [
   { type: 'link', label: '독서기록 서비스', value: 'https://readingtree-tan.vercel.app/' }
 ]),
-  avatarUrl: process.env.NEXT_PUBLIC_AVATAR_URL || `${_basePath}/images/1775097043334-upload.webp`,
+  avatarUrl: process.env.NEXT_PUBLIC_AVATAR_URL || `${_basePath}/images/1775097350708-upload.webp`,
   accentColor: process.env.NEXT_PUBLIC_ACCENT_COLOR || '#3b82f6',
   designPreset: parsePreset(process.env.NEXT_PUBLIC_DESIGN_PRESET || 'pro'),
   fontFamily: process.env.NEXT_PUBLIC_FONT_FAMILY || 'Pretendard Variable',
