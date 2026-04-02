@@ -18,7 +18,7 @@ function parsePreset(raw: string | undefined): DesignPreset {
 export const siteConfig = {
   name: process.env.NEXT_PUBLIC_SITE_NAME || '최동혁',
   nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'Donghyuck Choi',
-  title: process.env.NEXT_PUBLIC_TITLE || '프리랜서 개발자',
+  title: process.env.NEXT_PUBLIC_TITLE || 'AI 전문가',
   titleEn: process.env.NEXT_PUBLIC_TITLE_EN || 'AI builder',
   company: process.env.NEXT_PUBLIC_COMPANY || 'Habitree',
   companyEn: process.env.NEXT_PUBLIC_COMPANY_EN || null,
