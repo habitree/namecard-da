@@ -28,7 +28,9 @@ export const siteConfig = {
   addressEn: process.env.NEXT_PUBLIC_ADDRESS_EN || null,
   website: process.env.NEXT_PUBLIC_WEBSITE || 'https://linkmap.biz',
   socials: parseJSON<SocialItem[]>(process.env.NEXT_PUBLIC_SOCIALS, [
-  { platform: 'naver-blog', url: '' }
+  { platform: 'threads', url: 'https://www.threads.com/@donghyeog9015' },
+  { platform: 'youtube', url: 'https://youtu.be/6jXxmNQkDKs' },
+  { platform: 'naver-blog', url: 'https://blog.naver.com/nevertheless-jos' }
 ]),
   extraContacts: parseJSON<ExtraContactItem[]>(process.env.NEXT_PUBLIC_EXTRA_CONTACTS, [
   { type: 'link', label: '독서기록 서비스', value: 'https://readingtree-tan.vercel.app/' }
