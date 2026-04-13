@@ -1,4 +1,5 @@
 import { siteConfig } from '@/lib/config';
+import '@/app/preset-override.css';
 import { FlippableCard } from '@/components/flippable-card';
 import { Footer } from '@/components/footer';
 

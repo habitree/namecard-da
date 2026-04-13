@@ -1,0 +1,12 @@
+/* ── Preset Override (auto-generated) ── */
+:root {
+  --accent-color: #d97706;
+  --accent-glow: rgba(217, 119, 6, 0.15);
+  --page-bg: #f8fafc;
+  --page-text: #1e293b;
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --text-secondary: #64748b;
+  --divider-color: #e2e8f0;
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+}
